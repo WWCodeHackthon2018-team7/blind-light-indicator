@@ -1,27 +1,29 @@
-/*
-  Analog Input
-  Demonstrates analog input by reading an analog sensor on analog pin 0 and
-  writing the output to the console
+#include <Servo.h> 
+int servoPin = 15;
+Servo servo;   
+int angle = 0;   // servo position in degrees
+int photocellPin = 0;
   
-*/
-int sensorPin = 0;     // select the input pin for the analog pin
-int sensorValue = 0;  // variable to store the value coming from the sensor
-void setup() {
-  //set up the output with the correct upload speed
-  Serial.begin(115200);
-  pinMode(0, INPUT); 
-}
-void loop() {
-  // read the value from the sensor:
-  sensorValue = analogRead(sensorPin);
-  //float voltage = sensorValue * (5.0 / 1023.0);
-  // print out the value you read:
-  Serial.println(sensorValue);
-  // print the value from the sensor to the console
-  //Serial.println(sensorValue);
-  // wait 2 milliseconds before the next loop for the analog-to-digital
-  // converter to settle after the last reading:
-  delay(100);
-}
+void setup() { 
+  Serial.begin(112500);
+  servo.attach(servoPin); 
+  pinMode(0, INPUT);
+  pinMode(15, OUTPUT);
+} 
+  
+void loop() { 
+  int photoValue = analogRead(photocellPin); 
+  int newAngle = reading/3 - 100;
+  // open blinds = 180, less light = 
+  // closed blinds = 0, more light, close the blinds at integer 700
+ 
+  Serial.print(photoValue);
+  Serial.print("Angle" + newAngle);
+  Serial.print("\n");
+  
+  servo.write(newAngle);  
+           
+  delay(100);  
+} 
 
 
