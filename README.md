@@ -20,7 +20,7 @@ _An application that controls window blinds to open or close in relation to ligh
 ## Setup/Installation Requirements
 * Open Arduino IDE
 * Upload to launch the application
-* Use the application to see the  .
+* Use the application to see the
 
 
 # Setup
