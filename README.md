@@ -48,7 +48,7 @@ _An Arduino device that closes window blinds automatically, based on ambient lig
 
 # Support and contact details
 
-  Please feel free to contact shyamal.punekar@gmail.com, kellyeogilvie@gmail.com, if you have any questions, issues, concerns, comments or suggestions.
+  Please feel free to contact shyamal.punekar@gmail.com, kellyeogilvie@gmail.com, holly.wilkalis@gmail.com if you have any questions, issues, concerns, comments or suggestions.
 
 # Known Bugs
   _Vulnerable http client!_
