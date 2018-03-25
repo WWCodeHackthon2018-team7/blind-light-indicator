@@ -1,6 +1,6 @@
 # IOT Hackathon 2018 Group Project (Team 7)
 
-#### Blind Light Indicator, Mar 24 2018
+#### Blindz Minder, Mar 24-25 2018
 
 ##### Usage -
 
@@ -28,9 +28,10 @@ _An Arduino device that closes window blinds automatically, based on ambient lig
 * Set com port (IDE -> Tools -> port)
 * Set the baud rate to 11500 (IDE -> Tools -> Upload speed: 115200)
 * Open 'light-indicator.ino' file.
-* Upload to launch the application
-* Use the Serial Monitor to see output.
-* Create an account with http://dweet.io/
+* Enter your wi-fi credentials in 'light-indicator.ino' file.
+* Enter unique name for your device in 'light-indicator.ino' file.
+* Upload to launch the application.
+* Use the http://dweet.io/ to see output.
 
 
 # Setup
