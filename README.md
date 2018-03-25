@@ -4,20 +4,27 @@
 
 ##### Usage -
 
-#### By Kelly Ogilvie, Shyamal Punekar, Holly Wilkalis, Ann Kasper, Ryan Gergioff, Eric Chunn
+* To measure light and temperature, to close window blinds automatically to conserve energy
+* to make living comfortable
+* saves money
+* assist people with light sensitivity
+* useful in situations for people with disabilities who cannot physically move blinds
+
+
+#### By Ann Kasper, Eric Chunn, Holly Wilkalis, Kelly Ogilvie, Ryan Gergioff, Shyamal Punekar
 
 ## Description
 
-_An application where users may_
+_An application that controls window blinds to open or close in relation to light and temperature to save energy_
 
 ## Setup/Installation Requirements
 * Open Arduino IDE
 * Upload to launch the application
-* Use the application to see the .
+* Use the application to see the  .
 
 
 # Setup
-  https://github.com/shyamalpunekar/doctor-lookup
+  https://github.com/WWCodeHackthon2018-team7/blind-light-indicator
 
 # Support and contact details
 
