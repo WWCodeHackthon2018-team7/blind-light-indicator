@@ -28,10 +28,8 @@ _An application that controls window blinds to open or close in relation to ligh
 
 # Screenshots
 ## The Breadboard layout
-![The Breadboard layout](images/screenshot1.PNG)
 
-
-![connections](images/screenshot2.JPEG)
+![connections](images/screenshot2.jpg)
 
 # Support and contact details
 
