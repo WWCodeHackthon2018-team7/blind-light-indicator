@@ -26,19 +26,31 @@ _An application that controls window blinds to open or close in relation to ligh
 # Setup
   https://github.com/WWCodeHackthon2018-team7/blind-light-indicator
 
+# Screenshots
+## The Breadboard layout
+![](images/screenshot1.PNG)
+
+
+![](images/screenshot2.PNG)
+
 # Support and contact details
 
-  Please feel free to contact shyamal.punekar@gmail.com if you have any questions, issues, concerns, comments or suggestions.
+  Please feel free to contact shyamal.punekar@gmail.com, kellyeogilvie@gmail.com if you have any questions, issues, concerns, comments or suggestions.
 # Known Bugs
 _There are no known bugs at this time!_
 
 ## Technologies Used
 
 * Arduino IDE
-* Adafruit Feather HUZZAH ESP8266
-* Photoresistor
-
-
+* fritzing tool
+* Parts-
+  * 1 * Breadboard
+  * 1 * Adafruit Feather HUZZAH ESP8266
+  * 1 * Photoresistor
+  * 1 * 10K resistor
+  * 1 * DHT22 temperature-humidity sensor
+  * 1 * Micro Servo Motor
+  * Messaging framework for Internet of Things http://dweet.io/
 
 
 ### License
