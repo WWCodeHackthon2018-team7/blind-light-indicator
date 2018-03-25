@@ -1,4 +1,4 @@
-
+//Libraries
 //DHT Sensor (Temperature and Humidity)
 #include "DHT.h"
 //Wifi Library for ESP8266
@@ -78,7 +78,9 @@ void loop() {
   if (photoValue < 900 || t > 31) {
     //Turn the Servo a full rotation
     angle = 180;
-  }
+  } else {
+    angle = 0;
+    }
   // This will send the request to the server
   // Include the values of the temperature, humidity and light sensor
   client.print(String("GET /dweet/for/wwc18iotteam7?temperature=") + String(t) + "&humidity=" + String(h) + "&lumens=" + String(photoValue) + " HTTP/1.1\r\n" +
@@ -109,5 +111,4 @@ void loop() {
   //Delay the sensor 2 second 
   delay(2000);
 }
-
 
